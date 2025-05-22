@@ -8,132 +8,70 @@
 </head>
 <body>
   <div class="container">
-    <!-- Nội dung trang CV ở đây -->
+
+    <div class="personal-info">
+      <img src="images/default-avatar.png" class="avatar" alt="Avatar"/>
+      <div class="info-text">
+        <h1 class="name">Nguyễn Văn A</h1>
+        <p class="job-title">Lập trình viên Front-End</p>
+        <p class="contact">Email: nguyenvana@example.com | SĐT: 0901234567</p>
+      </div>
+    </div>
+
+    <div class="section" id="target">
+      <h2 class="section-title">Mục tiêu nghề nghiệp</h2>
+      <div class="section-content">
+        <p>Tôi mong muốn phát triển trong ngành IT, đặc biệt là Front-End Development.</p>
+      </div>
+    </div>
+
+    <div class="section" id="background">
+      <h2 class="section-title">Lý lịch</h2>
+      <div class="section-content">
+        <div class="subsection">
+          <h3>Học vấn</h3>
+          <ul class="timeline">
+            <li><span>2019 - 2023:</span> Đại học ABC - Công nghệ Thông tin</li>
+          </ul>
+        </div>
+
+        <div class="subsection">
+          <h3>Kinh nghiệm</h3>
+          <ul class="timeline">
+            <li><span>2023 - Nay:</span> Lập trình viên tại công ty XYZ</li>
+          </ul>
+        </div>
+
+        <div class="subsection">
+          <h3>Kỹ năng</h3>
+          <ul>
+            <li>HTML/CSS/JS</li>
+            <li>ReactJS</li>
+            <li>Git</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="projects">
+      <h2 class="section-title">Dự án</h2>
+      <div class="section-content">
+        <ul>
+          <li><strong>CV Online</strong> - Sử dụng HTML, CSS.</li>
+          <li><strong>Shop Online</strong> - ReactJS + Firebase.</li>
+        </ul>
+      </div>
+    </div>
+
+    <footer class="section">
+      <h2 class="section-title">Liên hệ</h2>
+      <ol>
+        <li><a href="#">LinkedIn</a></li>
+        <li><a href="#">GitHub</a></li>
+        <li><a href="#">Facebook</a></li>
+      </ol>
+    </footer>
+
   </div>
 </body>
 </html>
-<div class="personal-info">
-  <img src="images/default-avatar.png" class="avatar" alt="Avatar"/>
-  <div class="info-text">
-    <h1 class="name">Nguyễn Văn A</h1>
-    <p class="job-title">Lập trình viên Front-End</p>
-    <p class="contact">Email: nguyenvana@example.com | SĐT: 0901234567</p>
-  </div>
-</div>
-.personal-info {
-  display: flex;
-  align-items: center;
-  margin-bottom: 30px;
-}
-
-.avatar {
-  width: 113px;
-  height: 113px;
-  border-radius: 50%;
-  margin-right: 20px;
-}
-<div class="section" id="target">
-  <h2 class="section-title">Mục tiêu nghề nghiệp</h2>
-  <div class="section-content">
-    <p>Tôi mong muốn phát triển trong ngành IT, đặc biệt là Front-End Development.</p>
-  </div>
-</div>
-.section {
-  margin-bottom: 30px;
-}
-
-.section-title {
-  text-transform: uppercase;
-  font-weight: bold;
-  border-bottom: 2px solid #0e2452;
-  padding-bottom: 5px;
-  margin-bottom: 15px;
-}
-<div class="section" id="background">
-  <h2 class="section-title">Lý lịch</h2>
-  <div class="section-content">
-    <div class="subsection">
-      <h3>Học vấn</h3>
-      <ul class="timeline">
-        <li><span>2019 - 2023:</span> Đại học ABC - Công nghệ Thông tin</li>
-      </ul>
-    </div>
-
-    <div class="subsection">
-      <h3>Kinh nghiệm</h3>
-      <ul class="timeline">
-        <li><span>2023 - Nay:</span> Lập trình viên tại công ty XYZ</li>
-      </ul>
-    </div>
-
-    <div class="subsection">
-      <h3>Kỹ năng</h3>
-      <ul>
-        <li>HTML/CSS/JS</li>
-        <li>ReactJS</li>
-        <li>Git</li>
-      </ul>
-    </div>
-  </div>
-</div>
-.timeline {
-  list-style-type: none;
-  padding-left: 20px;
-  position: relative;
-}
-
-.timeline li {
-  position: relative;
-  margin-bottom: 10px;
-  padding-left: 10px;
-}
-
-.timeline li::before {
-  content: "";
-  position: absolute;
-  top: 6px;
-  left: -10px;
-  width: 6px;
-  height: 6px;
-  background-color: #0e2452;
-  border-radius: 50%;
-}
-<div class="section" id="projects">
-  <h2 class="section-title">Dự án</h2>
-  <div class="section-content">
-    <ul>
-      <li><strong>CV Online</strong> - Sử dụng HTML, CSS.</li>
-      <li><strong>Shop Online</strong> - ReactJS + Firebase.</li>
-    </ul>
-  </div>
-</div>
-<footer class="section">
-  <h2 class="section-title">Liên hệ</h2>
-  <ol>
-    <li><a href="#">LinkedIn</a></li>
-    <li><a href="#">GitHub</a></li>
-    <li><a href="#">Facebook</a></li>
-  </ol>
-</footer>
-.section-content {
-  padding-left: 10px;
-}
-
-.subsection {
-  margin-bottom: 20px;
-}
-
-ul, ol {
-  margin-top: 0;
-  padding-left: 20px;
-}
-
-
-.name {
-  color: #0e2452;
-  margin: 0;
-}
-
-.job-title, .contact {
-  margin: 5px 0;
-}
