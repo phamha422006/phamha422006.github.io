@@ -233,14 +233,3 @@ footer ol li a:hover {
   opacity: 0.15; /* Độ trong để không gây rối mắt */
 }
 
-.side-image.left {
-  left: 0;
-  background-image: url('images/left-image.jpg'); /* Đường dẫn ảnh bên trái */
-}
-
-.side-image.right {
-  right: 0;
-  background-image: url('images/right-image.jpg'); /* Đường dẫn ảnh bên phải */
-}
-
-
