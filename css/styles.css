@@ -222,4 +222,25 @@ footer ol li a:hover {
   background-color: #eaeaea;
   transition: 0.3s;
 }
+.side-image {
+  position: fixed;
+  top: 0;
+  width: 150px;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  opacity: 0.15; /* Độ trong để không gây rối mắt */
+}
+
+.side-image.left {
+  left: 0;
+  background-image: url('images/left-image.jpg'); /* Đường dẫn ảnh bên trái */
+}
+
+.side-image.right {
+  right: 0;
+  background-image: url('images/right-image.jpg'); /* Đường dẫn ảnh bên phải */
+}
+
 
