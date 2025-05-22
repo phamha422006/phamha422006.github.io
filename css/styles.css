@@ -1,0 +1,72 @@
+/* Personal Info */
+.personal-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.avatar {
+  width: 113px;
+  height: 113px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.name {
+  color: #0e2452;
+  margin: 0;
+}
+
+.job-title, .contact {
+  margin: 5px 0;
+}
+
+/* Sections */
+.section {
+  margin-bottom: 30px;
+}
+
+.section-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 2px solid #0e2452;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.section-content {
+  padding-left: 10px;
+}
+
+.subsection {
+  margin-bottom: 20px;
+}
+
+ul, ol {
+  margin-top: 0;
+  padding-left: 20px;
+}
+
+/* Timeline */
+.timeline {
+  list-style-type: none;
+  padding-left: 20px;
+  position: relative;
+}
+
+.timeline li {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.timeline li::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: -10px;
+  width: 6px;
+  height: 6px;
+  background-color: #0e2452;
+  border-radius: 50%;
+}
