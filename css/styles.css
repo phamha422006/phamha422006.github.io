@@ -94,3 +94,132 @@ footer i {
   margin-right: 6px;
   color: #0e2452;
 }
+/* Reset một số kiểu mặc định */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Kiểu cho body chung */
+body {
+  background-color: #f4f4f9; /* Màu nền sáng */
+  color: #333; /* Màu chữ tối */
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Container chứa toàn bộ nội dung */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Phần thông tin cá nhân */
+.profile {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #0e2452; /* Nền màu xanh đậm */
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.profile img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile .info h1 {
+  font-size: 24px;
+}
+
+.profile .info p {
+  margin: 5px 0;
+}
+
+/* Tiêu đề phần */
+.section-title {
+  font-size: 22px;
+  color: #0e2452; /* Màu xanh đậm cho tiêu đề */
+  border-bottom: 2px solid #0e2452;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+/* Nội dung phần */
+.section-content {
+  margin-bottom: 20px;
+  background-color: #f4f4f9; /* Màu nền sáng cho nội dung */
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.section-content ul {
+  list-style-type: none;
+}
+
+.section-content ul li {
+  margin: 8px 0;
+}
+
+/* Dòng thời gian cho các phần Học vấn & Kinh nghiệm làm việc */
+.timeline {
+  border-left: 3px solid #0e2452; /* Đường dọc cho dòng thời gian */
+  padding-left: 20px;
+}
+
+.timeline li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.timeline li::before {
+  content: '';
+  position: absolute;
+  left: -8px;
+  top: 0;
+  width: 12px;
+  height: 12px;
+  background-color: #0e2452;
+  border-radius: 50%;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+footer ol {
+  list-style: none;
+}
+
+footer ol li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+footer ol li a {
+  text-decoration: none;
+  color: #0e2452; /* Màu xanh đậm cho liên kết trong footer */
+  font-weight: bold;
+}
+
+footer ol li a:hover {
+  color: #e91e63; /* Màu hồng khi hover */
+}
+
+/* Thêm hiệu ứng hover cho phần nội dung */
+.section-content:hover {
+  background-color: #eaeaea;
+  transition: 0.3s;
+}
+
