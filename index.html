@@ -4,8 +4,97 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Digital CV - </title>
+  <title>Digital CV - Phạm Bá Hoàng Hà</title>
   <link rel="stylesheet" href="css/styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+      border-bottom: 2px solid #0e2452;
+      padding-bottom: 20px;
+    }
+
+    .profile img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-right: 20px;
+      border: 3px solid #0e2452;
+    }
+
+    .profile .info h1 {
+      font-size: 28px;
+      color: #0e2452;
+      margin: 0 0 10px;
+    }
+
+    .profile .info p {
+      margin: 4px 0;
+    }
+
+    .section {
+      margin-bottom: 25px;
+    }
+
+    .section-title {
+      font-size: 22px;
+      font-weight: bold;
+      color: #0e2452;
+      margin-bottom: 10px;
+      border-left: 4px solid #0e2452;
+      padding-left: 10px;
+    }
+
+    .section-content ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .section-content ul li {
+      margin-bottom: 8px;
+      padding-left: 15px;
+      position: relative;
+    }
+
+    .section-content ul li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: #0e2452;
+      font-size: 18px;
+    }
+
+    .section-content p {
+      margin: 0;
+    }
+
+    a {
+      color: #0e2452;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 
 <body>
@@ -14,19 +103,18 @@
     <div class="profile">
       <img src="images/default-avatar.png" alt="Ảnh đại diện">
       <div class="info">
-        <h1 style="color: #0e2452">Phạm Bá Hoàng Hà</h1>
-        <p>Ngành Kỹ thuật phần mềm - Đại học FPT</p>
-        <p>Email: nguyenvana@example.com</p>
-        <p>Điện thoại: 0123456789</p>
-        <p>Địa chỉ: Krong Ana- ĐẮK LẮK</p>
-        <p>WBSITE: https://phamha422006.github.io/
+        <h1>Phạm Bá Hoàng Hà</h1>
+        <p><strong>Ngành:</strong> Kỹ thuật phần mềm - Đại học FPT</p>
+        <p><strong>Email:</strong> nguyenvana@example.com</p>
+        <p><strong>Điện thoại:</strong> 0123456789</p>
+        <p><strong>Địa chỉ:</strong> Krông Ana - Đắk Lắk</p>
+        <p><strong>Website:</strong> <a href="https://phamha422006.github.io/" target="_blank">phamha422006.github.io</a></p>
       </div>
     </div>
 
     <!-- Mục tiêu nghề nghiệp -->
     <div class="section" id="target">
       <h2 class="section-title">Mục tiêu nghề nghiệp</h2>
-     <div class="_____________________________________________________________________________________________________________________________">
       <div class="section-content">
         <p>Tôi mong muốn được phát triển sự nghiệp trong lĩnh vực phát triển phần mềm, đặc biệt là Web Front-End, tại một môi trường năng động và sáng tạo.</p>
       </div>
@@ -37,9 +125,7 @@
       <h2 class="section-title">Học vấn</h2>
       <div class="section-content">
         <ul class="timeline">
-          <li>
-            <strong>2024 - nay:</strong> Đại học FPT - Ngành Kỹ thuật phần mềm
-          </li>
+          <li><strong>2024 - nay:</strong> Đại học FPT - Ngành Kỹ thuật phần mềm</li>
         </ul>
       </div>
     </div>
@@ -49,9 +135,7 @@
       <h2 class="section-title">Kinh nghiệm làm việc</h2>
       <div class="section-content">
         <ul class="timeline">
-          <li>
-            <strong>2025:</strong>  Thực tập tại Công ty ABC - Hỗ trợ phát triển giao diện web
-          </li>
+          <li><strong>2025:</strong> Thực tập tại Công ty ABC - Hỗ trợ phát triển giao diện web</li>
         </ul>
       </div>
     </div>
@@ -86,4 +170,9 @@
         <p>Đọc sách, chơi thể thao, viết blog công nghệ</p>
       </div>
     </div>
+  </div>
+</body>
+
+</html>
+
 
